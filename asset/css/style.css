@@ -1,1 +1,70 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
 
+* {
+	box-sizing: border-box;
+}
+
+.top_container {
+	max-width: 100%;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.search_container {
+	max-width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	width: 70%;
+	background: #f1f1f1;
+}
+
+input[type=submit] {
+	width: 15%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+
+#result_container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.flex-container {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 10px;
+	border: 1px solid black;
+	margin: 15px 5px;
+}
+
+.col {
+	flex: 1 1 auto;
+	width: 100%;
+	margin-bottom: 1px;
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+}
+
+.addressTxt {
+	font-weight: bold;
+}
